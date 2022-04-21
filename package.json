@@ -1,5 +1,9 @@
 {
-  "name": "app-test",
+  "name": "@seanianking/app-test",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "description": "This is a test",
+  "author": "seanianking",
   "version": "0.1.0",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/seanianking"
