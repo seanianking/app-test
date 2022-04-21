@@ -1,7 +1,12 @@
 {
   "name": "app-test",
   "version": "0.1.0",
-  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/seanianking"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -38,7 +43,14 @@
       "last 1 safari version"
     ]
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/preset-react": "^7.16.7",
     "react-router-dom": "^6.3.0"
   }
 }
