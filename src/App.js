@@ -4,17 +4,15 @@ import FormPage from "./pages/FormPage.js";
 
 import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<BoxPage />}/>
-            <Route path="/form" element={<FormPage />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
-  );
-}
+const App = () => {
+  <div className="App">
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<BoxPage />} />
+        <Route path="/form" element={<FormPage />} />
+      </Routes>
+    </BrowserRouter>
+  </div>;
+};
 
 export default App;
