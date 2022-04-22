@@ -1,2 +1,2 @@
 export * from './pages'
-export { default as reactApp} from "./App.js"
+export { default as ReactApp} from "./App.js"
