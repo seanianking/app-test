@@ -3,7 +3,7 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "description": "This is a test",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "seanianking",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/seanianking"
